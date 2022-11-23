@@ -8,9 +8,9 @@ spec:
     app: vertex-rc
   template:
     metadata:
-      name: vertex-rc
+      name: complexpod
       labels:
-        app: podvertex
+        app: vertex-rc
     spec:
       containers:
         - name: nginxcon
