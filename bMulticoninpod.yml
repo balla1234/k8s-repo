@@ -10,5 +10,8 @@ spec:
     - name: c01
       image: ubuntu
       command: ["/bin/bash", "-c", "while true; do echo Hello-Bhupinder; sleep 5 ; done"]
+    - name: c01
+      image: ubuntu
+      command: ["/bin/bash", "-c", "while true; do echo WELCOME-TG; sleep 5 ; done"]
 
-      
+      .
