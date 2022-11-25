@@ -2,7 +2,7 @@ kind: Pod
 apiVersion: v1                     
 metadata:                           
   name: testpod1  
-  annotation: 
+  annotations: 
     description: Hamara pehla testpod1 create hone ja raha hai                
 spec:                                    
   containers:                      
