@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: nodelabels
+  name: nodelabels-testpod7
   labels:
     env: development
 spec:

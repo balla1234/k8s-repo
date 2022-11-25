@@ -2,7 +2,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: delhipod
+  name: delhipod-testpod6
   labels:                                                   
     env: development
     class: pods

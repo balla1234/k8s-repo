@@ -1,7 +1,7 @@
 kind: ReplicaSet                                    
 apiVersion: apps/v1                            
 metadata:
-  name: myrs
+  name: myrs-testpod9
 spec:
   replicas: 2  
   selector:                  
