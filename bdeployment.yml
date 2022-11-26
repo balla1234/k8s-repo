@@ -17,3 +17,6 @@ spec:
         - name: c00
           image: centos
           command: ["/bin/bash", "-c", "while true; do echo shivani; sleep 5; done"]
+
+
+.
