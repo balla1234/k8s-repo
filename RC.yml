@@ -3,19 +3,19 @@ kind: ReplicationController
 metadata:
   name: myreplicacon
 spec:
-  replicas: 3
+  replicas: 5
   selector:
-    app: vertex-rc
+    app: myapp
   template:
     metadata:
       name: complexpod
       labels:
-        app: vertex-rc
+        app: myapp
     spec:
       containers:
         - name: nginxcon
-          image: nginx
+          image: shivani999/myjavaapp14nov22
           ports:
-            - containerPort: 80
+            - containerPort: 8080
 
 
