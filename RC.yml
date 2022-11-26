@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginxcon
-          image: shivani999/myjavaapp14nov22
+          image: shivani999/myjavaapp14nov22:1
           ports:
             - containerPort: 8080
 
