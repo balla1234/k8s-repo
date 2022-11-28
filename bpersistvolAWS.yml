@@ -11,3 +11,6 @@ spec:
   awsElasticBlockStore:
     volumeID: vol-06f67f9fbac99214f         # YAHAN APNI EBS VOLUME ID DAALO
     fsType: ext4
+
+
+    
