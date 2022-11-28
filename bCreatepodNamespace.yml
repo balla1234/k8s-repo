@@ -8,3 +8,6 @@ spec:
       image: ubuntu              
       command: ["/bin/bash", "-c", "while true; do echo Technical Guftgu; sleep 5 ; done"]
   restartPolicy: Never 
+
+
+  
