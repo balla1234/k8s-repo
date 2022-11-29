@@ -11,3 +11,6 @@ spec:
         memory: "800Mi"
       requests:
         memory: "600Mi"
+
+
+        
