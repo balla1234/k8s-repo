@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: default-cpu-demo-3
+  name: mypod
 spec:
   containers:
   - name: mycon1
@@ -9,5 +9,8 @@ spec:
     resources:
       requests:
         cpu: "0.75"
+
+        
+
 
         

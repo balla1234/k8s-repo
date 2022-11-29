@@ -8,3 +8,6 @@ spec:
     limits.memory: "400Mi"
     requests.cpu: "200m"
     requests.memory: "200Mi"
+
+
+    
