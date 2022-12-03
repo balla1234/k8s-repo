@@ -6,17 +6,17 @@ spec:
   replicas: 5
   selector:
     app: myapp
-    version: 2.6.2
+    version: 2.6.1
   template:
     metadata:
       name: complexpod
       labels:
         app: myapp
-        version: 2.6.2
+        version: 2.6.1
     spec:
       containers:
         - name: nginxcon
-          image: shivani999/myjavaimage3dec22:2
+          image: shivani999/myjavaimage3dec999:1
           ports:
             - containerPort: 8080
 
